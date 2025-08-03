@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="src/styles/index.css">
+	<title>File Manager Application</title>
+</head>
+<body>
+
+	<main>
+		<div class="container">
+			<h1>File Upload</h1>
+			<div class="container-upload">
+				<img src="src/assets/img/upload_10024248.png" alt="">
+				<p>Drag and drop a file here</p>
+				<input type="file" id="fileInput" style="display: none;">
+				<button id="btn-upload-file">Choose File</button>
+			</div>
+			<div class="contaianer-images-uploaded">
+				<h2>Uploaded Files</h2>
+				<div class="images-uploaded">
+					<div class="image-uploaded">
+						<div class="image-and-filename">
+							<img src="src/assets/img/nature-animals.jpg" alt="">
+							<p>Filename</p>
+						</div>
+						<button>
+							<img src="src/assets/img/file_14914448.png" alt="">
+							<p>Download</p>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<script src="src/controller/fileStorageController.js"></script>
+</body>
+</html>
